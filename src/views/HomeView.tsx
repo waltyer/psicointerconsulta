@@ -35,7 +35,7 @@ export const HomeView: React.FC<HomeViewProps> = ({
     {
       id: 'cap-4',
       title: 'Rutas de Orientación',
-      desc: 'Fichas para Crisis emocional, IVE, Desregulación y Acompañamiento familiar.',
+      desc: 'Fichas para Crisis emocional, IVE, Desregulación, Códigos prioritarios y Familia.',
       badge: '5 fichas',
       icon: Compass,
       color: 'bg-emerald-50 text-emerald-700 border-emerald-200'

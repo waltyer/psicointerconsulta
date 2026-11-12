@@ -33,3 +33,5 @@ android/local.properties
 android/.idea
 *.apk
 *.aab
+
+gh.exe

@@ -11,6 +11,8 @@ export interface RouteCard {
   interventions: string[];
   warning: string;
   isInstitutionalProtocol?: boolean;
+  isPriorityCodesSection?: boolean;
+  priorityCodesData?: any;
 }
 
 export interface ToolCard {
@@ -83,6 +85,7 @@ export const REFLECTIVE_QUOTES = [
 ];
 
 export const PRACTITIONER_MOTIVATIONAL = [
+  "«No tenemos que saberlo todo desde el primer día. También aprendemos observando, escuchando y reconociendo cuándo es necesario acudir a un profesional con mayor experiencia».",
   "«No tienes que saberlo todo desde el primer día; estás aquí para aprender, preguntar, reflexionar y crecer en cada encuentro.»",
   "«Cada interconsulta es una oportunidad para aprender algo nuevo, incluso cuando no tienes todas las respuestas.»",
   "«Confía en lo que has aprendido, reconoce tus límites y no dudes en pedir orientación cuando la necesites.»",
@@ -185,6 +188,66 @@ export const CHAPTER_3_VALUATION = {
   ]
 };
 
+export const PRIORITY_CODES_SECTION = {
+  title: "Códigos de atención prioritaria",
+  subtitle: "Interconsulta Psicológica • Hospital Francisco de Paula Santander E.S.E.",
+  institution: "Hospital Francisco de Paula Santander E.S.E.",
+  targetAudience: "Practicantes de Psicología en formación clínica",
+  codes: [
+    {
+      id: "codigo-verde",
+      name: "CÓDIGO VERDE",
+      category: "VIOLENCIA SEXUAL",
+      description: "Corresponde a situaciones relacionadas con violencia sexual que requieren atención integral, confidencial y oportuna por parte del equipo profesional del hospital.",
+      color: "verde",
+      tag: "Atención Integral y Oportuna",
+      badgeClass: "bg-emerald-600 text-white",
+      borderClass: "border-emerald-300",
+      bgLightClass: "bg-emerald-50/80"
+    },
+    {
+      id: "codigo-morado",
+      name: "CÓDIGO MORADO",
+      category: "VIOLENCIA FÍSICA",
+      description: "Corresponde a situaciones relacionadas con violencia física que requieren valoración, atención y activación de las rutas institucionales correspondientes.",
+      color: "morado",
+      tag: "Valoración y Activación de Rutas",
+      badgeClass: "bg-purple-600 text-white",
+      borderClass: "border-purple-300",
+      bgLightClass: "bg-purple-50/80"
+    },
+    {
+      id: "codigo-dorado",
+      name: "CÓDIGO DORADO",
+      category: "CONDUCTA SUICIDA",
+      description: "Corresponde a situaciones relacionadas con conducta suicida, incluyendo ideación o intento suicida, que requieren atención prioritaria y valoración por parte de los profesionales responsables.",
+      color: "dorado",
+      tag: "Atención Prioritaria y Valoración",
+      badgeClass: "bg-amber-600 text-white",
+      borderClass: "border-amber-300",
+      bgLightClass: "bg-amber-50/80"
+    }
+  ],
+  internScope: {
+    title: "Alcance del rol del practicante",
+    description: "La atención de los códigos verde, morado y dorado es responsabilidad directa de los profesionales del hospital. Como practicantes de Psicología, no debemos asumir su abordaje de manera autónoma. En algunos casos, podremos participar como observadores, bajo supervisión y autorización del profesional responsable, aprovechando estos espacios como oportunidades de aprendizaje."
+  },
+  recommendations: [
+    "Reconocer e identificar los códigos de atención prioritaria.",
+    "Informar oportunamente al profesional responsable cuando se identifique una situación de esta naturaleza.",
+    "No realizar intervenciones independientes ni asumir responsabilidades que excedan nuestro rol como practicantes.",
+    "Participar en los espacios de observación cuando sean autorizados por el profesional responsable.",
+    "Aprovechar estas experiencias como oportunidades de aprendizaje y fortalecimiento de nuestras competencias profesionales.",
+    "Mantener siempre la confidencialidad y el respeto por la privacidad de los pacientes."
+  ],
+  motivationalQuote: "«No tenemos que saberlo todo desde el primer día. También aprendemos observando, escuchando y reconociendo cuándo es necesario acudir a un profesional con mayor experiencia».",
+  institutionalRedCodeNotice: {
+    title: "Activaciones institucionales de emergencia y Código Rojo hospitalario",
+    description: "En el Hospital Francisco de Paula Santander E.S.E., las activaciones de Código Rojo corresponden a emergencias médicas hospitalarias (como la hemorragia posparto). Su liderazgo recae en el equipo médico asistencial. Toda participación psicológica en estas emergencias se rige por el protocolo oficial del HFPS y las directrices del psicólogo supervisor.",
+    warning: "ADVERTENCIA INSTITUCIONAL: Toda intervención en emergencias médicas institucionales se rige por el protocolo oficial del HFPS. La labor del estudiante está supeditada a las directrices de la supervisión docente y hospitalaria."
+  }
+};
+
 export const CHAPTER_4_ROUTES: RouteCard[] = [
   {
     id: "crisis-emocional",
@@ -278,34 +341,38 @@ export const CHAPTER_4_ROUTES: RouteCard[] = [
     warning: "RECUERDA: Jamás sujetar físicamente, no acorralar, no confrontar ni aislar al paciente de forma forzada. Estas maniobras están estrictamente fuera del rol del practicante. La respiración guiada nunca debe imponerse y debe evitarse si genera mareo, hiperventilación o hay patología respiratoria/cardíaca previa."
   },
   {
-    id: "codigo-rojo",
-    title: "Código Rojo y activaciones institucionales",
-    subtitle: "Actuación sujeta a confirmación oficial HFPS",
-    badge: "Protocolo Institucional",
-    tagColor: "bg-red-100 text-red-800 border-red-200",
+    id: "codigos-prioritarios",
+    title: "Códigos de atención prioritaria",
+    subtitle: "Código Verde, Morado y Dorado • Hospital Francisco de Paula Santander E.S.E.",
+    badge: "Atención Prioritaria",
+    tagColor: "bg-emerald-100 text-emerald-800 border-emerald-200",
     isInstitutionalProtocol: true,
-    consistsOf: "Apartado destinado a orientar al practicante cuando la solicitud de interconsulta se relaciona con un código de emergencia o activación institucional en el hospital.",
+    isPriorityCodesSection: true,
+    consistsOf: "Orientación sobre los códigos de atención prioritaria en interconsulta psicológica: Código Verde (violencia sexual), Código Morado (violencia física) y Código Dorado (conducta suicida), delimitando el rol del practicante y las oportunidades de aprendizaje en el HFPS.",
     explore: [
-      "Motivo exacto de la solicitud y código específico informado por el equipo de salud.",
-      "Protocolo institucional vigente aplicable en el Hospital Francisco de Paula Santander E.S.E.",
-      "Rol explícitamente asignado al profesional de Psicología y al practicante en supervisión.",
-      "Responsable de coordinación del evento y canal directo de comunicación.",
-      "Condiciones de seguridad del entorno y necesidades de acompañamiento a familiares."
+      "Identificación y reconocimiento oportuno del código correspondiente (Verde, Morado o Dorado).",
+      "Comunicación inmediata y oportuna al profesional responsable del hospital.",
+      "Delimitación del rol del practicante: participación en espacios de observación bajo estricta supervisión y autorización.",
+      "Preservación de la confidencialidad y respeto irrestricto por la privacidad del paciente.",
+      "Activaciones institucionales de emergencia adicionales (Código Rojo) bajo protocolo hospitalario."
     ],
     questions: [
-      "¿Cuál es el motivo exacto de la activación informado por el servicio?",
-      "¿Qué orientación específica ha brindado el equipo médico responsable o supervisor?",
-      "¿Qué actuación corresponde al rol de Psicología según el protocolo oficial vigente del hospital?"
+      "¿Se ha reconocido con claridad cuál código de atención prioritaria se presenta (Verde, Morado o Dorado)?",
+      "¿Se informó oportunamente al profesional responsable del hospital?",
+      "¿Cuenta el practicante con la autorización y supervisión del profesional a cargo para participar como observador?",
+      "¿Se está garantizando plenamente la confidencialidad y la privacidad institucional de la persona atendida?"
     ],
-    objective: "Recordar que toda actuación durante una activación de emergencia debe ajustarse estrictamente al protocolo oficial institucional y a las indicaciones directas del psicólogo supervisor.",
+    objective: "Reconocer e identificar los códigos de atención prioritaria, informar oportunamente al profesional a cargo y participar exclusivamente en espacios de observación autorizados como oportunidad de aprendizaje y fortalecimiento de competencias.",
     interventions: [
-      "Confirmar con el equipo asistencial el código y el motivo de activación.",
-      "Consultar el protocolo oficial vigente del Hospital Francisco de Paula Santander E.S.E.",
-      "Identificar con claridad quién lidera la emergencia y cuál es el alcance del apoyo psicológico.",
-      "Brindar acompañamiento únicamente dentro de las funciones autorizadas y bajo supervisión estricta.",
-      "Registrar y comunicar detalladamente lo actuado según el procedimiento institucional."
+      "Reconocer e identificar los códigos de atención prioritaria.",
+      "Informar oportunamente al profesional responsable cuando se identifique una situación de esta naturaleza.",
+      "No realizar intervenciones independientes ni asumir responsabilidades que excedan nuestro rol como practicantes.",
+      "Participar en los espacios de observación cuando sean autorizados por el profesional responsable.",
+      "Aprovechar estas experiencias como oportunidades de aprendizaje y fortalecimiento de nuestras competencias profesionales.",
+      "Mantener siempre la confidencialidad y el respeto por la privacidad de los pacientes."
     ],
-    warning: "ADVERTENCIA EDITORIAL INSTITUCIONAL: NO INVENTAR la definición del código rojo, criterios de activación, tiempos, responsables ni procedimientos. Este apartado queda sujeto a validación y carga del documento oficial del HFPS. No se deben añadir otros códigos hasta que el hospital confirme formalmente su denominación y procedimiento."
+    warning: "ALCANCE DEL ROL: La atención de los códigos verde, morado y dorado es responsabilidad directa de los profesionales del hospital. Como practicantes de Psicología, no debemos asumir su abordaje de manera autónoma. En algunos casos, podremos participar como observadores, bajo supervisión y autorización del profesional responsable, aprovechando estos espacios como oportunidades de aprendizaje.",
+    priorityCodesData: PRIORITY_CODES_SECTION
   },
   {
     id: "acompanamiento-familiar",
@@ -592,7 +659,7 @@ export const GLOSSARY: GlossaryItem[] = [
 export const VALIDATION_CHECKLIST = [
   { text: "El HFPS ha autorizado el uso de su nombre y, si corresponde, su logo institucional.", status: "Pendiente validación HFPS" },
   { text: "El supervisor docente y hospitalario revisó el contenido psicológico y su pertinencia para la práctica.", status: "Revisión académica" },
-  { text: "Los códigos y rutas institucionales (especialmente Código Rojo) fueron confirmados con documentos oficiales vigentes.", status: "Pendiente validación HFPS" },
+  { text: "Los códigos de atención prioritaria (Verde: Violencia sexual, Morado: Violencia física, Dorado: Conducta suicida) y rol formativo fueron incorporados; Código Rojo médico sujeto a protocolo oficial HFPS.", status: "Códigos prioritarios integrados" },
   { text: "La guía diferencia con total claridad la orientación general de los protocolos oficiales vinculantes.", status: "Cumplido" },
   { text: "No existe captura, almacenamiento ni transmisión de datos reales o identificables de pacientes.", status: "Cumplido (100% libre de datos)" },
   { text: "Los ejemplos clínicos son explícitamente ficticios y de carácter pedagógico.", status: "Cumplido" },

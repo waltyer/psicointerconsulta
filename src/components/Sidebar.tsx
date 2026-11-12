@@ -45,7 +45,7 @@ export const Sidebar: React.FC<SidebarProps> = ({
     { id: 'cap-1', label: '1. Antes de iniciar', sublabel: 'Preparación previa', icon: CheckCircle2 },
     { id: 'cap-2', label: '2. Abordaje inicial', sublabel: 'Presentación y encuadre', icon: MessageSquare },
     { id: 'cap-3', label: '3. Valoración psicológica', sublabel: '5 áreas y preguntas', icon: ClipboardList },
-    { id: 'cap-4', label: '4. Rutas de orientación', sublabel: 'Fichas de situaciones', icon: Compass, badge: '5 fichas' },
+    { id: 'cap-4', label: '4. Rutas de orientación', sublabel: 'Fichas y códigos prioritarios', icon: Compass, badge: '5 fichas' },
     { id: 'cap-5', label: '5. Herramientas de intervención', sublabel: 'Técnicas paso a paso', icon: Wrench, badge: '6 técnicas' },
     { id: 'cap-6', label: '6. Cierre de la atención', sublabel: 'Síntesis y continuidad', icon: DoorClosed },
     { id: 'cap-7', label: '7. Registro de interconsulta', sublabel: 'Estructura y redacción', icon: FileText },

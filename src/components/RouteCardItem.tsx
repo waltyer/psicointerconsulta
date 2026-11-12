@@ -12,6 +12,7 @@ import {
   ShieldAlert
 } from 'lucide-react';
 import { RouteCard } from '../data/guideData';
+import { PriorityCodesCard } from './PriorityCodesCard';
 
 interface RouteCardItemProps {
   route: RouteCard;
@@ -27,6 +28,17 @@ export const RouteCardItem: React.FC<RouteCardItemProps> = ({
   defaultExpanded = true
 }) => {
   const [isExpanded, setIsExpanded] = useState(defaultExpanded);
+
+  if (route.isPriorityCodesSection || route.id === 'codigos-prioritarios' || route.id === 'codigo-rojo') {
+    return (
+      <PriorityCodesCard
+        route={route}
+        isFavorite={isFavorite}
+        onToggleFavorite={onToggleFavorite}
+        defaultExpanded={defaultExpanded}
+      />
+    );
+  }
 
   return (
     <article

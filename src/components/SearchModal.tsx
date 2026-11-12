@@ -32,16 +32,16 @@ export const SearchModal: React.FC<SearchModalProps> = ({
   const inputRef = useRef<HTMLInputElement>(null);
 
   const quickKeywords = [
+    'Códigos prioritarios',
+    'Código verde',
+    'Código morado',
+    'Código dorado',
     'Crisis emocional',
     'IVE',
     'Contención',
-    'Respiración',
     'Código rojo',
     'Urgencias',
-    'Ginecología',
-    'Preguntas',
-    'Validación',
-    'Registro'
+    'Ginecología'
   ];
 
   useEffect(() => {
@@ -82,8 +82,24 @@ export const SearchModal: React.FC<SearchModalProps> = ({
       const matchInDesc = route.consistsOf.toLowerCase().includes(q);
       const matchInQuestions = route.questions.some(qn => qn.toLowerCase().includes(q));
       const matchInInterventions = route.interventions.some(i => i.toLowerCase().includes(q));
+      
+      let matchInPriority = false;
+      if (route.priorityCodesData) {
+        const pd = route.priorityCodesData;
+        matchInPriority = 
+          (q.includes('rojo') || q.includes('verde') || q.includes('morado') || q.includes('dorado') || q.includes('suicid') || q.includes('sexual') || q.includes('físic') || q.includes('fisic')) ||
+          pd.codes.some((c: any) => 
+            c.name.toLowerCase().includes(q) || 
+            c.category.toLowerCase().includes(q) || 
+            c.description.toLowerCase().includes(q)
+          ) ||
+          pd.recommendations.some((r: any) => 
+            (typeof r === 'string' ? r : r.description || '').toLowerCase().includes(q)
+          ) ||
+          pd.internScope.description.toLowerCase().includes(q);
+      }
 
-      if (matchInTitle || matchInDesc || matchInQuestions || matchInInterventions) {
+      if (matchInTitle || matchInDesc || matchInQuestions || matchInInterventions || matchInPriority) {
         results.push({
           id: route.id,
           tab: 'cap-4',

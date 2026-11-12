@@ -17,7 +17,7 @@ export const FavoritesView: React.FC<FavoritesViewProps> = ({
   onToggleFavorite,
   onSelectTab
 }) => {
-  const favoriteRoutes = CHAPTER_4_ROUTES.filter(r => favorites.includes(r.id));
+  const favoriteRoutes = CHAPTER_4_ROUTES.filter(r => favorites.includes(r.id) || (r.id === 'codigos-prioritarios' && favorites.includes('codigo-rojo')));
   const favoriteTools = CHAPTER_5_TOOLS.filter(t => favorites.includes(t.id));
 
   const totalFavorites = favoriteRoutes.length + favoriteTools.length;
