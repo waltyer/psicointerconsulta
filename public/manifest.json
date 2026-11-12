@@ -1,0 +1,18 @@
+{
+  "short_name": "PsicoInterconsulta",
+  "name": "PSICOINTERCONSULTA - Guía Rápida Hospitalaria",
+  "description": "Guía rápida de orientación para la atención psicológica por interconsulta en el contexto hospitalario. Hospital Francisco de Paula Santander E.S.E.",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "type": "image/svg+xml",
+      "sizes": "192x192 512x512",
+      "purpose": "any maskable"
+    }
+  ],
+  "start_url": "/",
+  "background_color": "#F4F9F7",
+  "theme_color": "#246B57",
+  "display": "standalone",
+  "orientation": "portrait"
+}

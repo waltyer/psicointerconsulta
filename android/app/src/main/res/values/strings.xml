@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">PSICOINTERCONSULTA</string>
+    <string name="title_activity_main">PSICOINTERCONSULTA</string>
+    <string name="package_name">com.hfps.psicointerconsulta</string>
+    <string name="custom_url_scheme">com.hfps.psicointerconsulta</string>
+</resources>

@@ -1,0 +1,399 @@
+﻿PSICOINTERCONSULTA
+GUÍA RÁPIDA DE ORIENTACIÓN PARA LA ATENCIÓNPSICOLÓGICA POR INTERCONSULTA
+Documento maestro de contenido e instruccionespara construir la versión digital interactiva en Antigravity
+Hospital Francisco de Paula Santander E.S.E.Santander de Quilichao, Cauca
+Versión base para revisión académica e institucional
+Cómo utilizar este documento
+Este archivo contiene el encargo completo que se debe entregar al agente de Antigravity: propósito del producto, estructura de navegación, textos base, fichas de orientación, criterios de diseño, límites de seguridad y pruebas de funcionamiento. La intención es que Antigravity construya una guía digital interactiva, no un sistema clínico.
+INSTRUCCIÓN CENTRALPSICOINTERCONSULTA es una GUÍA RÁPIDA. La aplicación web es únicamente el medio digital para consultar el contenido. No debe convertirse en historia clínica electrónica, sistema de gestión hospitalaria, formulario de pacientes ni herramienta de diagnóstico.
+1. Identidad y propósito del producto
+Nombre: PSICOINTERCONSULTA.
+Nombre descriptivo: Guía rápida de orientación para la atención psicológica por interconsulta.
+Contexto: Hospital Francisco de Paula Santander E.S.E., Santander de Quilichao, Cauca.
+Población destinataria: estudiantes de Psicología que realizan práctica formativa y requieren una herramienta de consulta para orientar su actuación durante la atención por interconsulta.
+Propósito general: ofrecer orientaciones claras, breves y organizadas para apoyar al practicante antes, durante y después de una interconsulta psicológica en el contexto hospitalario.
+Objetivos específicos:
+Orientar la preparación y el desarrollo inicial de la atención por interconsulta.
+Facilitar la exploración de necesidades emocionales y psicosociales mediante preguntas orientadoras.
+Presentar rutas de orientación para situaciones frecuentes o de especial cuidado.
+Ofrecer estrategias de intervención psicológica explicadas de manera práctica.
+Apoyar la elaboración de registros claros, objetivos y respetuosos.
+Recordar los principios éticos, los límites del rol del practicante y la importancia de la supervisión.
+2. Principio de diseño: debe sentirse como una guía
+La experiencia debe parecerse a un manual de bolsillo organizado por capítulos y fichas. El usuario entra, selecciona un tema y consulta recomendaciones concretas. La información debe ser fácil de localizar y leer en poco tiempo.
+No crear inicio de sesión, perfiles de pacientes ni paneles administrativos.
+No crear formularios para registrar pacientes, historias clínicas o datos identificables.
+No crear diagnósticos automáticos, escalas automáticas de riesgo ni decisiones clínicas automatizadas.
+No presentar la guía como sustituto del criterio profesional, la supervisión o los protocolos institucionales.
+Usar fichas, tarjetas, índices, pestañas o apartados desplegables para organizar la consulta.
+Cada tema debe priorizar orientaciones prácticas y evitar bloques extensos de texto.
+3. Estructura de navegación
+CAPÍTULO
+CONTENIDO
+Inicio
+Presentación de la guía, objetivo, instrucciones de uso y accesos a los capítulos.
+1. Antes de iniciar
+Preparación previa a recibir y abordar una interconsulta.
+2. Abordaje inicial
+Presentación, encuadre, privacidad, comunicación y vínculo.
+3. Valoración psicológica
+Aspectos generales por explorar y preguntas orientadoras.
+4. Rutas de orientación
+Fichas de situaciones frecuentes y de especial cuidado.
+5. Herramientas de intervención
+Técnicas psicológicas explicadas paso a paso.
+6. Cierre de la atención
+Síntesis, orientación, comunicación y continuidad.
+7. Registro de interconsulta
+Estructura y ejemplos educativos de redacción.
+8. Servicios y contextos
+Hospitalización, urgencias, ginecología y consulta externa.
+9. Ética y recomendaciones
+Confidencialidad, autonomía, límites y supervisión.
+Glosario
+Definiciones breves de términos utilizados en la guía.
+4. Contenido base de la guía
+INICIO | Bienvenida
+Título: Bienvenido(a) a PSICOINTERCONSULTA.
+Texto de bienvenida: “Esta guía reúne orientaciones prácticas para acompañar la atención psicológica por interconsulta en el contexto hospitalario. Aquí encontrarás recomendaciones para preparar el abordaje, explorar las necesidades del paciente, formular preguntas, seleccionar estrategias de acompañamiento y organizar el registro de la atención. Utilízala como material de consulta y adapta cada orientación a las particularidades de la situación.”
+¿Cómo utilizar esta guía?
+Identifica el motivo de la interconsulta y el servicio que solicita la atención.
+Selecciona el capítulo o la ruta que más se relacione con la situación.
+Consulta los aspectos por explorar y las preguntas sugeridas.
+Revisa las estrategias de intervención y las recomendaciones.
+Adapta la orientación a la persona, al contexto y a las indicaciones del equipo tratante.
+CAPÍTULO 1. Antes de iniciar
+Objetivo: preparar el abordaje y comprender el motivo de la solicitud antes del encuentro con el paciente.
+¿Qué debes revisar?
+Motivo de solicitud de interconsulta y profesional o servicio que la realiza.
+Información clínica pertinente y autorizada para comprender el contexto de atención.
+Condiciones actuales del paciente y posibilidades de comunicación.
+Necesidad de coordinar el momento de la intervención con el equipo asistencial.
+Condiciones de privacidad, seguridad y disponibilidad de acompañantes.
+¿Qué debes tener presente?
+La solicitud de interconsulta orienta el motivo inicial, pero no reemplaza la exploración directa.
+Evita anticipar conclusiones sobre el estado emocional del paciente.
+Ten en cuenta dolor, fatiga, procedimientos, barreras de comunicación y otras condiciones que puedan afectar el encuentro.
+Si el paciente no está en condiciones de participar, coordina con el equipo tratante y sigue las indicaciones institucionales.
+CAPÍTULO 2. Abordaje inicial
+Objetivo: establecer un contacto respetuoso y explicar de manera sencilla el propósito del acompañamiento.
+Pasos orientadores
+Saluda y preséntate indicando tu nombre y tu rol como estudiante/practicante de Psicología.
+Explica que el acercamiento se realiza por una solicitud de interconsulta o como parte del acompañamiento psicológico.
+Pregunta si la persona se encuentra en condiciones y desea conversar en ese momento.
+Explica el propósito, el alcance y los límites de confidencialidad de la intervención, según los lineamientos institucionales.
+Procura un espacio de privacidad y utiliza un lenguaje claro, cercano y respetuoso.
+Permite que el paciente exprese sus necesidades sin presionarlo.
+EJEMPLO DE APERTURA“Buenos días/tardes. Mi nombre es ______ y soy practicante de Psicología. Nos solicitaron realizar un acercamiento para conocer cómo se encuentra y saber si hay algo en lo que podamos acompañarle. ¿Está de acuerdo en conversar un momento?”
+CAPÍTULO 3. Valoración psicológica: aspectos por explorar
+La exploración debe ajustarse al motivo de interconsulta, la condición clínica y la disposición del paciente. No se trata de aplicar mecánicamente todas las preguntas.
+Estado emocional
+¿Cómo se ha sentido emocionalmente durante los últimos días?
+¿Qué emociones han estado más presentes?
+¿Qué es lo que más le preocupa en este momento?
+Situación actual y hospitalización
+¿Cómo está viviendo esta situación de salud?
+¿Qué ha sido lo más difícil desde que se encuentra aquí?
+¿Hay algo que necesite comprender o conversar?
+Red de apoyo
+¿Con quién cuenta en este momento?
+¿Cómo ha sido el acompañamiento de las personas cercanas?
+¿Se siente apoyado(a)?
+Afrontamiento
+¿Qué suele ayudarle cuando atraviesa momentos difíciles?
+¿Qué estrategias ha utilizado para manejar esta situación?
+¿Qué le gustaría que pudiera ayudarle ahora?
+Necesidades inmediatas
+¿Qué necesita en este momento?
+¿Hay alguna preocupación que considere importante que conozcamos?
+¿Hay algo que le haga sentir inseguro(a) o en riesgo?
+Nota: cuando aparezcan señales de riesgo para la integridad del paciente o de otras personas, el practicante debe comunicarlo oportunamente al profesional responsable y activar la ruta institucional correspondiente. Esta guía no reemplaza los procedimientos de valoración de riesgo.
+CAPÍTULO 4. Rutas de orientación
+Cada ruta se presenta como una ficha de consulta. Antigravity debe permitir abrir cada ficha desde un índice y mantener la misma estructura visual para facilitar la lectura.
+A. Crisis emocional
+¿En qué consiste? Situación en la que una persona experimenta un aumento significativo del malestar emocional ante una noticia, un procedimiento, un cambio en su estado de salud o una circunstancia personal.
+¿Qué debes explorar?
+Situación que desencadenó el malestar.
+Emociones y preocupaciones predominantes.
+Necesidades inmediatas y percepción de seguridad.
+Recursos personales y red de apoyo.
+Señales que requieran comunicar o activar atención prioritaria.
+Preguntas orientadoras:
+¿Qué ha ocurrido y cómo lo está viviendo?
+¿Qué es lo que más le preocupa en este momento?
+¿Qué necesita para sentirse acompañado(a)?
+¿Con quién cuenta para recibir apoyo?
+Objetivo de intervención: Ofrecer un espacio de escucha y apoyo inicial, reconocer necesidades inmediatas y orientar la continuidad de la atención.
+¿Cómo puedes intervenir?
+Mantener una actitud calmada y respetuosa.
+Escuchar sin interrumpir ni minimizar la experiencia.
+Reconocer y validar las emociones expresadas.
+Explorar necesidades inmediatas y recursos de apoyo.
+Coordinar con el profesional responsable si se identifican señales de riesgo o necesidades que exceden el rol del practicante.
+RECUERDANo prometer resultados, no minimizar el malestar ni forzar al paciente a hablar. La contención emocional no sustituye la atención de urgencias ni la activación de protocolos cuando se requieran.
+B. Interrupción Voluntaria del Embarazo (IVE)
+¿En qué consiste? Acompañamiento psicológico a personas que atraviesan un proceso de interrupción voluntaria del embarazo. La experiencia emocional es individual y no debe presuponerse.
+¿Qué debes explorar?
+Cómo describe la paciente su experiencia y su estado emocional actual.
+Preocupaciones, dudas, temores o ambivalencias que desee expresar.
+Red de apoyo y condiciones de acompañamiento.
+Necesidades de información u orientación dentro del alcance del rol psicológico.
+Posibles señales de riesgo o malestar intenso que requieran atención adicional.
+Preguntas orientadoras:
+¿Cómo se ha sentido durante este proceso?
+¿Qué pensamientos o emociones han estado más presentes?
+¿Hay algo que le preocupe especialmente en este momento?
+¿Siente que cuenta con apoyo?
+¿Qué tipo de acompañamiento considera que necesita?
+Objetivo de intervención: Brindar acompañamiento respetuoso, sin juicios y centrado en las necesidades expresadas por la paciente.
+¿Cómo puedes intervenir?
+Escucha activa y validación emocional.
+Respeto por la autonomía y las decisiones de la paciente.
+Exploración de necesidades de apoyo, sin inducir respuestas.
+Psicoeducación pertinente y comprensible, sin sustituir la información médica.
+Orientación sobre recursos de apoyo y continuidad cuando sea necesario.
+RECUERDANo imponer creencias personales, morales o religiosas; no cuestionar ni culpabilizar; no presionar para tomar decisiones; no asumir que todas las pacientes experimentan las mismas emociones. Respetar los protocolos y lineamientos vigentes.
+C. Desregulación emocional
+¿En qué consiste? Situación en la que la persona presenta dificultad para manejar la intensidad de sus emociones y puede requerir acompañamiento para reconocer necesidades y recuperar gradualmente la regulación.
+¿Qué debes explorar?
+Emoción predominante y cómo la describe el paciente.
+Situación previa o desencadenante, si puede identificarse.
+Intensidad y manifestaciones del malestar.
+Estrategias que habitualmente le ayudan.
+Condiciones de seguridad y posibles necesidades clínicas inmediatas.
+Preguntas orientadoras:
+¿Qué está sintiendo en este momento?
+¿Qué ocurrió antes de que comenzara a sentirse así?
+¿Qué suele ayudarle cuando experimenta estas emociones?
+¿Qué necesita en este momento para sentirse más tranquilo(a)?
+Objetivo de intervención: Acompañar la identificación de emociones y necesidades, favoreciendo estrategias de regulación apropiadas para el contexto.
+¿Cómo puedes intervenir?
+Hablar con tono calmado y utilizar frases sencillas.
+Reducir estímulos cuando sea posible y seguro.
+Escuchar y validar sin confrontar ni juzgar.
+Ofrecer una estrategia breve de regulación solo si la persona está dispuesta y su condición clínica lo permite.
+Solicitar apoyo del equipo responsable si hay agitación intensa, alteración del estado de conciencia, riesgo o necesidad médica.
+RECUERDANo sujetar físicamente, confrontar, aislar ni realizar maniobras fuera del rol. La respiración guiada no debe imponerse y debe evitarse si genera incomodidad o existe contraindicación clínica.
+D. Código rojo y otras activaciones institucionales
+¿En qué consiste? Apartado destinado a orientar al practicante cuando la solicitud de interconsulta se relaciona con un código o una activación institucional.
+¿Qué debes explorar?
+Motivo exacto de la solicitud y código informado por el equipo.
+Protocolo institucional vigente aplicable.
+Rol asignado al profesional de Psicología y al practicante.
+Responsable de coordinación y canal de comunicación.
+Necesidades de acompañamiento y condiciones de seguridad.
+Preguntas orientadoras:
+¿Cuál es el motivo de la activación?
+¿Qué orientación ha dado el equipo responsable?
+¿Qué actuación corresponde al rol de Psicología según el protocolo vigente?
+Objetivo de intervención: Recordar que la actuación debe ajustarse estrictamente al protocolo institucional y a las indicaciones del profesional responsable.
+¿Cómo puedes intervenir?
+Confirmar con el equipo el código y el motivo de activación.
+Consultar el protocolo oficial vigente del HFPS.
+Identificar quién lidera la atención y cuál es el alcance del rol psicológico.
+Brindar acompañamiento únicamente dentro de las funciones asignadas y bajo supervisión.
+Registrar y comunicar lo actuado según el procedimiento institucional.
+RECUERDANO INVENTAR la definición del código rojo, criterios de activación, tiempos, responsables ni procedimientos. Dejar campos editoriales claramente marcados para que el HFPS incorpore y valide la información oficial. Añadir otros códigos únicamente cuando el hospital confirme su denominación y procedimiento.
+E. Acompañamiento al paciente y su familia
+¿En qué consiste? Orientación al paciente y, cuando corresponda y exista autorización, a las personas de su red de apoyo.
+¿Qué debes explorar?
+Comprensión de la situación de salud, sin sustituir la explicación médica.
+Reacciones emocionales del paciente y de sus acompañantes.
+Necesidades de información y apoyo.
+Recursos y dificultades de la red de apoyo.
+Voluntad del paciente respecto a la participación familiar.
+Preguntas orientadoras:
+¿Cómo ha vivido su familia esta situación?
+¿Con quién puede contar?
+¿Qué es lo que más les preocupa?
+¿Qué tipo de acompañamiento consideran que necesitan?
+Objetivo de intervención: Favorecer el apoyo emocional y la comunicación respetuosa, teniendo en cuenta la voluntad y privacidad del paciente.
+¿Cómo puedes intervenir?
+Escuchar las necesidades del paciente y su acompañante.
+Promover comunicación respetuosa.
+Brindar psicoeducación dentro del alcance profesional.
+Reconocer recursos de apoyo y posibles tensiones.
+Orientar sobre continuidad o recursos institucionales cuando corresponda.
+RECUERDANo compartir información clínica sin autorización o fundamento institucional. No asumir que la familia es siempre una fuente de apoyo; explorar la situación particular.
+CAPÍTULO 5. Herramientas de intervención psicológica
+Escucha activa
+Finalidad: Facilitar que la persona exprese su experiencia y necesidades, mostrando atención y comprensión.
+¿Cómo utilizarla?
+Permitir pausas
+Evitar interrupciones
+Utilizar preguntas abiertas
+Resumir lo comprendido
+Observar señales verbales y no verbales.
+Precaución: No convertir la conversación en interrogatorio ni apresurar el relato.
+Validación emocional
+Finalidad: Reconocer la emoción expresada sin juzgar, minimizar ni necesariamente estar de acuerdo con todas las interpretaciones.
+¿Cómo utilizarla?
+Nombrar con prudencia lo que la persona expresa
+Reconocer la dificultad
+Preguntar si se comprendió adecuadamente.
+Precaución: Evitar frases como “no es para tanto”, “debe ser fuerte” o “todo pasa por algo”.
+Contención emocional
+Finalidad: Ofrecer presencia, escucha y apoyo inicial ante malestar emocional.
+¿Cómo utilizarla?
+Presentarse
+Mantener tono calmado
+Escuchar
+Identificar necesidades inmediatas
+Validar
+Buscar apoyo del equipo si se requiere.
+Precaución: No prometer confidencialidad absoluta ni sustituir atención especializada o urgente.
+Respiración consciente
+Finalidad: Invitar a una pausa de respiración cómoda para favorecer la regulación, cuando sea apropiado.
+¿Cómo utilizarla?
+Preguntar si desea intentarlo
+Invitar a respirar de forma suave y natural
+Evitar forzar inhalaciones o retenciones
+Detener si causa incomodidad.
+Precaución: Verificar condición clínica y contraindicaciones. No aplicar de forma automática.
+Psicoeducación
+Finalidad: Ofrecer información clara y comprensible sobre aspectos emocionales y recursos de afrontamiento.
+¿Cómo utilizarla?
+Identificar qué necesita saber la persona
+Explicar con lenguaje sencillo
+Verificar comprensión
+Aclarar límites del rol.
+Precaución: No ofrecer información médica que corresponda al equipo tratante ni presentar generalizaciones como certezas.
+Orientación a la red de apoyo
+Finalidad: Reconocer y fortalecer apoyos disponibles, respetando la voluntad del paciente.
+¿Cómo utilizarla?
+Explorar a quién identifica como apoyo
+Preguntar qué ayuda sería útil
+Orientar sobre formas concretas de acompañamiento.
+Precaución: No asumir que familiares o acompañantes son siempre figuras protectoras.
+CAPÍTULO 6. Cierre de la atención
+Objetivo: finalizar el encuentro de forma respetuosa, verificando necesidades y orientando los pasos siguientes.
+Realizar una síntesis breve de lo conversado, sin introducir conclusiones que el paciente no haya expresado.
+Preguntar si desea agregar algo o si tiene una necesidad inmediata pendiente.
+Explicar, dentro del alcance del rol, qué acciones se realizarán o a quién se comunicará la situación.
+Coordinar continuidad, seguimiento o remisión según criterio del profesional responsable y procedimientos institucionales.
+Agradecer la disposición del paciente y cerrar el encuentro respetuosamente.
+CAPÍTULO 7. Registro de la atención por interconsulta
+Este capítulo es educativo: explica qué elementos suele contener un registro. La documentación real debe realizarse exclusivamente en el sistema y formato institucional autorizado, siguiendo las indicaciones del supervisor.
+Motivo de interconsulta: motivo informado en la solicitud.
+Contexto del encuentro: servicio, momento de atención y condiciones relevantes.
+Observación y estado emocional: describir de manera objetiva lo observado durante el encuentro.
+Información referida: diferenciar claramente lo expresado por el paciente o acompañante.
+Intervención realizada: describir las estrategias efectivamente utilizadas.
+Respuesta: registrar la respuesta observada o expresada, sin exagerar resultados.
+Recomendaciones y continuidad: consignar orientaciones y comunicación realizada según corresponda.
+EJEMPLO EDUCATIVO FICTICIO“Se realiza acercamiento psicológico por solicitud de interconsulta. Durante el encuentro se brinda espacio de escucha activa y acompañamiento emocional. Se exploran las preocupaciones manifestadas por la persona frente a su situación actual de salud. Se realiza orientación sobre recursos de afrontamiento y se identifican necesidades de acompañamiento. Se informa al profesional responsable sobre los aspectos pertinentes y se recomienda continuidad según evolución y necesidades identificadas.”
+Recomendaciones de redacción:
+Utilizar lenguaje técnico, claro, respetuoso y objetivo.
+Diferenciar lo expresado por el paciente de lo observado por quien realiza la atención.
+Evitar juicios de valor, etiquetas y afirmaciones diagnósticas no sustentadas.
+No registrar intervenciones que no se realizaron ni respuestas que no se observaron.
+No incluir información innecesaria o datos de terceros que no sean pertinentes.
+Cumplir las normas de confidencialidad y los procedimientos institucionales.
+CAPÍTULO 8. Servicios y contextos de atención
+Hospitalización
+Considerar el estado general, dolor, fatiga, procedimientos, privacidad, duración de la estancia y cambios en la condición de salud. Coordinar el momento de atención con el equipo.
+Urgencias
+Priorizar indicaciones del equipo asistencial, seguridad, oportunidad y brevedad del acercamiento. La atención psicológica no debe interferir con procedimientos médicos ni con la atención prioritaria.
+Ginecología
+Abordar con respeto, privacidad y lenguaje no juzgador. Explorar necesidades emocionales según la situación particular, respetando autonomía y confidencialidad.
+Consulta externa
+Considerar el tiempo disponible, motivo de consulta, continuidad del acompañamiento y orientación sobre los canales institucionales pertinentes.
+No atribuir a cada servicio procedimientos que no hayan sido confirmados por el HFPS.
+CAPÍTULO 9. Ética, seguridad y límites del rol
+Dignidad y respeto: reconocer a cada persona sin discriminación.
+Autonomía: respetar decisiones y evitar presiones.
+Confidencialidad: proteger la información y explicar sus límites conforme a la normativa y los protocolos.
+Consentimiento y participación: explicar el propósito del encuentro y respetar la disposición de la persona.
+No maleficencia: evitar intervenciones para las que no se cuenta con competencia, autorización o condiciones adecuadas.
+Límites del practicante: actuar dentro de las funciones asignadas, con supervisión y sin asumir decisiones que corresponden al profesional responsable.
+Seguridad: comunicar de inmediato situaciones de riesgo y seguir las rutas institucionales.
+Trabajo interdisciplinario: coordinar con el equipo tratante de acuerdo con los canales establecidos.
+AVISO PERMANENTE EN LA APLICACIÓNEsta guía es un recurso académico y orientador. No reemplaza la valoración profesional, la supervisión del psicólogo responsable, las decisiones del equipo tratante ni los protocolos institucionales vigentes del Hospital Francisco de Paula Santander E.S.E.
+5. Glosario básico
+TÉRMINO
+DEFINICIÓN ORIENTADORA
+Interconsulta
+Solicitud de valoración o acompañamiento realizada entre profesionales o servicios de salud, de acuerdo con la organización institucional.
+Escucha activa
+Forma de comunicación que implica atención, comprensión, preguntas pertinentes y respeto por el relato de la persona.
+Validación emocional
+Reconocimiento de la experiencia emocional expresada, sin juzgarla ni minimizarla.
+Contención emocional
+Acompañamiento inicial que busca ofrecer apoyo y seguridad emocional ante una situación de malestar.
+Psicoeducación
+Proceso de brindar información comprensible sobre aspectos psicológicos y recursos de afrontamiento.
+Red de apoyo
+Personas o recursos que pueden brindar acompañamiento práctico, emocional o social.
+Afrontamiento
+Esfuerzos cognitivos, emocionales y conductuales que una persona utiliza para responder a situaciones difíciles.
+6. Directrices exactas de diseño y funcionamiento
+Identidad visual
+Estilo: institucional, sobrio, humano, limpio y contemporáneo.
+Paleta sugerida: verde oscuro #246B57, verde suave #EAF3EF, blanco #FFFFFF, azul discreto #365B73 y grises neutros.
+Evitar exceso de colores, degradados llamativos, ilustraciones infantiles y adornos que distraigan.
+Tipografía legible, jerarquía clara y buen contraste.
+Usar iconografía sencilla relacionada con orientación, lectura, bienestar y atención.
+No utilizar el logo oficial del hospital salvo que sea proporcionado o autorizado. Dejar un espacio para incorporarlo.
+Experiencia de usuario
+Menú lateral en escritorio y navegación compacta en celular.
+Índice de capítulos visible y opción clara para volver al inicio.
+Buscador por palabras clave: IVE, crisis emocional, contención, respiración, código rojo, entrevista, registro, hospitalización, urgencias y ginecología.
+Tarjetas de capítulos y fichas de consulta con secciones desplegables.
+Botones y enlaces deben tener acciones reales; no dejar elementos decorativos que aparenten ser interactivos.
+Mostrar una ruta de navegación o título del capítulo para que el usuario sepa dónde está.
+Diseño adaptable a computador, tableta y celular.
+El contenido debe poder leerse sin crear cuenta ni iniciar sesión.
+Requisitos técnicos sugeridos
+Construir una aplicación web con React, TypeScript, Vite y Tailwind CSS, o una alternativa equivalente si Antigravity justifica una mejor opción.
+Separar el contenido de las fichas en componentes o archivos de datos para facilitar futuras actualizaciones.
+No conectar bases de datos de pacientes ni servicios externos que reciban información clínica.
+Se permite guardar favoritos o preferencias de visualización localmente, sin almacenar datos de pacientes.
+Preparar la aplicación para publicación web y entregar instrucciones claras para ejecutarla y desplegarla.
+Incluir un archivo README con requisitos, instalación, ejecución, pruebas y publicación.
+7. Instrucción maestra para pegar en Antigravity
+Copia el siguiente bloque completo en el agente de Antigravity. Adjunta este documento al proyecto para que el agente lo utilice como fuente principal del contenido.
+Actúa como un equipo experto en desarrollo web, diseño UX/UI y organización de contenidos educativos en salud.Desarrolla una aplicación web funcional llamada PSICOINTERCONSULTA, utilizando como fuente principal el documento adjunto “Documento maestro PSICOINTERCONSULTA”.PROPÓSITO INNEGOCIABLE:El producto es una GUÍA RÁPIDA DE ORIENTACIÓN PARA LA ATENCIÓN PSICOLÓGICA POR INTERCONSULTA. La aplicación web es únicamente el formato digital e interactivo de esa guía. Debe sentirse como un manual de bolsillo de Psicología hospitalaria, organizado por capítulos y fichas de consulta rápida.NO desarrollar:- Historia clínica electrónica.- Sistema de gestión hospitalaria.- Formularios para registrar pacientes.- Base de datos de pacientes.- Diagnósticos automáticos ni decisiones clínicas automatizadas.- Panel administrativo, agenda de pacientes o gestión de citas.CONTEXTO:Hospital Francisco de Paula Santander E.S.E., Santander de Quilichao, Cauca. Dirigida a estudiantes de Psicología en práctica formativa que realizan atención por interconsulta.CONTENIDO:Utiliza y organiza el contenido completo del documento adjunto. No reduzcas el proyecto a una maqueta ni reemplaces el contenido por textos genéricos. Desarrolla todos los capítulos, rutas, preguntas, técnicas, recomendaciones y glosario. Mantén el sentido del contenido y corrige únicamente errores de presentación o redacción sin alterar su alcance.ESTRUCTURA:Inicio, Antes de iniciar, Abordaje inicial, Valoración psicológica, Rutas de orientación, Herramientas de intervención, Cierre de la atención, Registro de interconsulta, Servicios y contextos, Ética y recomendaciones y Glosario.FICHAS:Presenta las rutas en fichas consistentes, con apartados como: descripción, qué explorar, preguntas orientadoras, objetivo, cómo intervenir y precauciones. Utiliza tarjetas, secciones desplegables e índices para que la consulta sea rápida. No obligues a recorrer pantallas innecesarias.DISEÑO:Interfaz institucional, limpia, sobria y humana. Colores sugeridos: verde oscuro #246B57, verde suave #EAF3EF, blanco #FFFFFF, azul discreto #365B73 y grises neutros. Tipografía legible, buen contraste, iconos sencillos, navegación clara. Menú lateral en escritorio y menú compacto en celular. No inventes ni uses el logo oficial del HFPS si no se ha proporcionado; deja un espacio para incorporarlo.FUNCIONALIDADES:- Navegación completa entre capítulos.- Buscador funcional por palabras clave.- Fichas y apartados desplegables.- Botón de volver al inicio.- Diseño responsive para computador, tableta y celular.- Favoritos opcionales para fichas, sin almacenar datos de pacientes.- Todos los controles deben funcionar.SEGURIDAD Y ALCANCE:No inventes definiciones, criterios, responsables ni procedimientos de códigos institucionales. En particular, el apartado de código rojo debe quedar sujeto a validación e incorporación del protocolo oficial del HFPS. No inventes otros códigos. No incorpores información identificable de pacientes. La guía no sustituye criterio profesional, supervisión, valoración clínica ni protocolos institucionales.DESARROLLO:Primero revisa el documento y presenta brevemente un plan de construcción. Después implementa la aplicación completa. Organiza el contenido en componentes reutilizables y archivos fáciles de actualizar. Ejecuta el proyecto, prueba todos los enlaces, botones, buscador, navegación y visualización en escritorio y celular. Corrige los errores encontrados.ENTREGABLES:1. Aplicación web funcional y ejecutable.2. Código fuente organizado.3. README con instrucciones para instalar, ejecutar y publicar.4. Lista de elementos institucionales que requieren validación (logo, códigos y protocolos oficiales).5. Resumen de pruebas realizadas.CRITERIO DE ACEPTACIÓN:Si un practicante tiene dos minutos para consultar cómo orientar una interconsulta, debe poder encontrar una ficha clara y útil sin leer páginas enteras. El resultado debe ser una guía práctica digital, no un sistema hospitalario.
+8. Prompt de revisión final
+Después de la primera construcción, pega este segundo mensaje para que Antigravity revise la calidad del producto sin cambiar su propósito:
+Revisa la aplicación PSICOINTERCONSULTA como guía rápida digital. Comprueba que todo el contenido del documento maestro esté incorporado y organizado. Verifica que no se haya convertido en un sistema de gestión, historia clínica ni herramienta de diagnóstico. Prueba todos los capítulos, fichas, botones, navegación, buscador y diseño responsive. Comprueba que las fichas sean breves, legibles y fáciles de consultar. Corrige errores de ortografía, accesibilidad, contraste y navegación. Identifica claramente los contenidos institucionales pendientes de validación, especialmente códigos y protocolos. No inventes información ni elimines contenidos importantes. Ejecuta las pruebas y entrega un resumen de los resultados.
+9. Lista de validación antes de presentar el entregable
+☐ El HFPS ha autorizado el uso de su nombre y, si corresponde, su logo.
+☐ El supervisor revisó el contenido psicológico y su pertinencia para la práctica.
+☐ Los códigos y rutas institucionales fueron confirmados con documentos oficiales.
+☐ La guía diferencia claramente orientación general de protocolos oficiales.
+☐ No hay datos reales ni identificables de pacientes.
+☐ Los ejemplos clínicos son ficticios y están identificados como educativos.
+☐ La aplicación funciona en computador y celular.
+☐ El buscador y todos los enlaces funcionan.
+☐ El contenido puede consultarse rápidamente.
+☐ Existe una versión o copia del código y un enlace de publicación estable.
+10. Nota académica y de actualización
+Este documento es una base de contenido para construir y revisar el producto académico. Antes de su uso institucional, el contenido debe contrastarse con la normativa aplicable, los lineamientos profesionales y los protocolos vigentes del Hospital Francisco de Paula Santander E.S.E. Las secciones institucionales pendientes deben completarse únicamente con información oficial validada por el hospital y el supervisor correspondiente.
+9. FRASES DE ACOMPAÑAMIENTO Y REFLEXIÓN
+Este apartado reúne frases breves que pueden acompañar visualmente las diferentes secciones de la guía. Su propósito es recordar el sentido humano de la atención psicológica por interconsulta. Deben utilizarse de manera discreta, sin reemplazar las orientaciones clínicas ni convertir la guía en una colección de mensajes decorativos.
+Frase de bienvenida
+«Detrás de cada interconsulta hay una persona, no solamente una condición de salud»
+Frases para distribuir en los capítulos
+«Antes de intervenir, recuerda que cada persona tiene una historia que merece ser escuchada.»
+«No necesitas tener todas las respuestas; a veces, escuchar es el primer paso.»
+«Acompañar también significa respetar los silencios.»
+«La empatía no consiste en sentir lo mismo, sino en intentar comprender al otro.»
+«Una intervención significativa comienza con una escucha sin prejuicios.»
+«Tu presencia puede brindar tranquilidad en medio de la incertidumbre.»
+«Cada encuentro es una oportunidad para aprender a acompañar con humanidad.»
+Indicaciones para Antigravity
+Distribuir las frases a lo largo de la guía, ubicando una frase breve al inicio o al cierre de algunos capítulos.
+Mantener un diseño sobrio: recuadros suaves, tipografía legible y uso moderado del color institucional.
+No mostrar todas las frases juntas en la pantalla principal; deben funcionar como recordatorios breves durante la consulta.
+No atribuir las frases a autores, instituciones o profesionales, porque son mensajes de elaboración propia para esta guía.
+Mensajes motivacionales para los practicantes
+«No tienes que saberlo todo desde el primer día; estás aquí para aprender, preguntar, reflexionar y crecer en cada encuentro».
+«Cada interconsulta es una oportunidad para aprender algo nuevo, incluso cuando no tienes todas las respuestas».
+«Confía en lo que has aprendido, reconoce tus límites y no dudes en pedir orientación cuando la necesites».
+«Ser un buen profesional no significa ser perfecto, sino actuar con responsabilidad, respeto y disposición para aprender».
+«No subestimes el valor de una escucha atenta: a veces, tu presencia puede hacer una diferencia importante».
+«Preguntar no te hace menos capaz; demuestra compromiso con una atención responsable».
+«Permítete aprender de los momentos difíciles; también forman parte de tu crecimiento profesional».
+«No estás aquí para resolverlo todo, sino para brindar un acompañamiento respetuoso dentro de tus competencias».
+«Celebra tus avances, por pequeños que parezcan. La confianza profesional también se construye paso a paso».
+«Acompañar a otros requiere sensibilidad, pero también autocuidado. Tu bienestar importa».
