@@ -46,7 +46,7 @@ La aplicación está construida bajo los estándares de una **Progressive Web Ap
    - *A. Crisis emocional*
    - *B. Interrupción Voluntaria del Embarazo (IVE)*
    - *C. Desregulación emocional*
-   - *D. Código Rojo y activaciones institucionales* (con aviso de validación HFPS)
+   - *D. Códigos de atención prioritaria* (Código Verde, Código Morado y Código Dorado)
    - *E. Acompañamiento al paciente y su familia*
 6. **5. Herramientas de intervención psicológica**: Explicación paso a paso y precauciones para:
    - Escucha activa
@@ -104,6 +104,6 @@ npm run preview
 
 Antes de la socialización formal en los servicios clínicos del hospital, se deben coordinar los siguientes puntos:
 1. **Logotipo oficial**: Reemplazar el isotipo provisional por el logotipo oficial de alta resolución provisto por la Oficina de Comunicaciones del HFPS.
-2. **Protocolo oficial de Código Rojo**: Confirmar el protocolo de activación institucional específico del Hospital Francisco de Paula Santander E.S.E. con la subdirección científica.
+2. **Códigos de atención prioritaria**: Ratificar los lineamientos y rutas interinstitucionales (Código Verde, Código Morado y Código Dorado) con la coordinación del HFPS.
 3. **Validación de la Coordinación de Docencia-Servicio y Supervisión de Psicología**: Revisión y aval pedagógico final del contenido.
 

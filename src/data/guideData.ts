@@ -240,12 +240,7 @@ export const PRIORITY_CODES_SECTION = {
     "Aprovechar estas experiencias como oportunidades de aprendizaje y fortalecimiento de nuestras competencias profesionales.",
     "Mantener siempre la confidencialidad y el respeto por la privacidad de los pacientes."
   ],
-  motivationalQuote: "«No tenemos que saberlo todo desde el primer día. También aprendemos observando, escuchando y reconociendo cuándo es necesario acudir a un profesional con mayor experiencia».",
-  institutionalRedCodeNotice: {
-    title: "Activaciones institucionales de emergencia y Código Rojo hospitalario",
-    description: "En el Hospital Francisco de Paula Santander E.S.E., las activaciones de Código Rojo corresponden a emergencias médicas hospitalarias (como la hemorragia posparto). Su liderazgo recae en el equipo médico asistencial. Toda participación psicológica en estas emergencias se rige por el protocolo oficial del HFPS y las directrices del psicólogo supervisor.",
-    warning: "ADVERTENCIA INSTITUCIONAL: Toda intervención en emergencias médicas institucionales se rige por el protocolo oficial del HFPS. La labor del estudiante está supeditada a las directrices de la supervisión docente y hospitalaria."
-  }
+  motivationalQuote: "«No tenemos que saberlo todo desde el primer día. También aprendemos observando, escuchando y reconociendo cuándo es necesario acudir a un profesional con mayor experiencia»."
 };
 
 export const CHAPTER_4_ROUTES: RouteCard[] = [
@@ -353,8 +348,7 @@ export const CHAPTER_4_ROUTES: RouteCard[] = [
       "Identificación y reconocimiento oportuno del código correspondiente (Verde, Morado o Dorado).",
       "Comunicación inmediata y oportuna al profesional responsable del hospital.",
       "Delimitación del rol del practicante: participación en espacios de observación bajo estricta supervisión y autorización.",
-      "Preservación de la confidencialidad y respeto irrestricto por la privacidad del paciente.",
-      "Activaciones institucionales de emergencia adicionales (Código Rojo) bajo protocolo hospitalario."
+      "Preservación de la confidencialidad y respeto irrestricto por la privacidad del paciente."
     ],
     questions: [
       "¿Se ha reconocido con claridad cuál código de atención prioritaria se presenta (Verde, Morado o Dorado)?",
@@ -659,7 +653,7 @@ export const GLOSSARY: GlossaryItem[] = [
 export const VALIDATION_CHECKLIST = [
   { text: "El HFPS ha autorizado el uso de su nombre y, si corresponde, su logo institucional.", status: "Pendiente validación HFPS" },
   { text: "El supervisor docente y hospitalario revisó el contenido psicológico y su pertinencia para la práctica.", status: "Revisión académica" },
-  { text: "Los códigos de atención prioritaria (Verde: Violencia sexual, Morado: Violencia física, Dorado: Conducta suicida) y rol formativo fueron incorporados; Código Rojo médico sujeto a protocolo oficial HFPS.", status: "Códigos prioritarios integrados" },
+  { text: "Los códigos de atención prioritaria en interconsulta psicológica (Verde: Violencia sexual, Morado: Violencia física, Dorado: Conducta suicida) y rol formativo fueron incorporados conforme a lineamientos HFPS.", status: "Cumplido" },
   { text: "La guía diferencia con total claridad la orientación general de los protocolos oficiales vinculantes.", status: "Cumplido" },
   { text: "No existe captura, almacenamiento ni transmisión de datos reales o identificables de pacientes.", status: "Cumplido (100% libre de datos)" },
   { text: "Los ejemplos clínicos son explícitamente ficticios y de carácter pedagógico.", status: "Cumplido" },

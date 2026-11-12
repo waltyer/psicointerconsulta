@@ -29,7 +29,7 @@ export const ValidationView: React.FC = () => {
             Acreditación y Aprobación Institucional
           </h3>
           <p className="text-xs sm:text-sm text-amber-900 leading-relaxed">
-            Las secciones marcadas con advertencia editorial (como el protocolo oficial de Código Rojo y la incorporación del logotipo institucional) deberán ser contrastadas y firmadas por la coordinación de Psicología y la subdirección científica del hospital antes de su adopción definitiva.
+            Las secciones institucionales (como la incorporación formal del logotipo del hospital) deberán ser contrastadas y firmadas por la coordinación de Psicología y la subdirección científica del hospital antes de su adopción definitiva.
           </p>
         </div>
       </div>

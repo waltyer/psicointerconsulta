@@ -36,10 +36,10 @@ export const SearchModal: React.FC<SearchModalProps> = ({
     'Código verde',
     'Código morado',
     'Código dorado',
+    'Conducta suicida',
     'Crisis emocional',
     'IVE',
     'Contención',
-    'Código rojo',
     'Urgencias',
     'Ginecología'
   ];
@@ -87,7 +87,7 @@ export const SearchModal: React.FC<SearchModalProps> = ({
       if (route.priorityCodesData) {
         const pd = route.priorityCodesData;
         matchInPriority = 
-          (q.includes('rojo') || q.includes('verde') || q.includes('morado') || q.includes('dorado') || q.includes('suicid') || q.includes('sexual') || q.includes('físic') || q.includes('fisic')) ||
+          (q.includes('verde') || q.includes('morado') || q.includes('dorado') || q.includes('suicid') || q.includes('sexual') || q.includes('físic') || q.includes('fisic')) ||
           pd.codes.some((c: any) => 
             c.name.toLowerCase().includes(q) || 
             c.category.toLowerCase().includes(q) || 

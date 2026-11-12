@@ -29,7 +29,7 @@ export const RouteCardItem: React.FC<RouteCardItemProps> = ({
 }) => {
   const [isExpanded, setIsExpanded] = useState(defaultExpanded);
 
-  if (route.isPriorityCodesSection || route.id === 'codigos-prioritarios' || route.id === 'codigo-rojo') {
+  if (route.isPriorityCodesSection || route.id === 'codigos-prioritarios') {
     return (
       <PriorityCodesCard
         route={route}

@@ -16,10 +16,7 @@ import {
   ChevronDown,
   ChevronUp,
   AlertTriangle,
-  Building2,
-  FileText,
-  Info,
-  CheckCircle2
+  Building2
 } from 'lucide-react';
 import { RouteCard } from '../data/guideData';
 
@@ -37,16 +34,12 @@ export const PriorityCodesCard: React.FC<PriorityCodesCardProps> = ({
   defaultExpanded = true
 }) => {
   const [isExpanded, setIsExpanded] = useState(defaultExpanded);
-  const [showInstitutionalDetails, setShowInstitutionalDetails] = useState(false);
 
   return (
     <article
       id="codigos-prioritarios"
       className="rounded-2xl bg-white border border-hospital-200 shadow-sm overflow-hidden transition-all duration-200"
     >
-      {/* Anchor for backwards compatibility */}
-      <span id="codigo-rojo" className="sr-only" aria-hidden="true" />
-
       {/* Header bar */}
       <div className="p-4 sm:p-5 flex items-start justify-between gap-3 bg-gradient-to-r from-hospital-50/60 via-white to-hospital-50/40 border-b border-hospital-100">
         <div className="space-y-1.5 flex-1 min-w-0">
@@ -408,80 +401,6 @@ export const PriorityCodesCard: React.FC<PriorityCodesCardProps> = ({
               Ψ
             </div>
           </section>
-
-          {/* 5. ACTIVACIONES INSTITUCIONALES Y CÓDIGO ROJO MÉDICO */}
-          <div className="rounded-xl border border-hospital-200/80 bg-white overflow-hidden">
-            <button
-              onClick={() => setShowInstitutionalDetails(!showInstitutionalDetails)}
-              className="w-full p-4 flex items-center justify-between text-left hover:bg-hospital-50/50 transition-colors"
-            >
-              <div className="flex items-center gap-2.5">
-                <div className="p-2 rounded-lg bg-red-100 text-red-700">
-                  <FileText className="w-4 h-4" />
-                </div>
-                <div>
-                  <h5 className="text-xs sm:text-sm font-bold text-slate-800">
-                    Activaciones institucionales de emergencia y Código Rojo hospitalario
-                  </h5>
-                  <p className="text-[11px] text-slate-500">
-                    Protocolos institucionales vinculantes en el Hospital Francisco de Paula Santander E.S.E.
-                  </p>
-                </div>
-              </div>
-              <div className="flex items-center gap-2">
-                <span className="text-[11px] font-semibold text-hospital-700 hidden sm:inline">
-                  {showInstitutionalDetails ? 'Ocultar protocolo' : 'Ver orientación'}
-                </span>
-                {showInstitutionalDetails ? (
-                  <ChevronUp className="w-4 h-4 text-slate-500" />
-                ) : (
-                  <ChevronDown className="w-4 h-4 text-slate-500" />
-                )}
-              </div>
-            </button>
-
-            {showInstitutionalDetails && (
-              <div className="p-4 sm:p-5 border-t border-hospital-100 bg-hospital-50/30 space-y-4 text-xs sm:text-sm text-slate-700">
-                <div className="space-y-1.5">
-                  <h6 className="font-bold text-hospital-800 text-xs uppercase tracking-wide flex items-center gap-1.5">
-                    <Info className="w-3.5 h-3.5 text-hospital-600" />
-                    Propósito institucional
-                  </h6>
-                  <p className="leading-relaxed bg-white p-3 rounded-xl border border-hospital-100 text-xs sm:text-sm">
-                    Orientar al practicante cuando la solicitud de interconsulta se relaciona con una emergencia institucional hospitalaria (por ejemplo, Código Rojo obstétrico por hemorragia posparto o reanimación). El liderazgo de estas situaciones es estrictamente médico y la actuación psicológica se circunscribe al apoyo emocional o acompañamiento familiar bajo supervisión.
-                  </p>
-                </div>
-
-                <div className="space-y-2">
-                  <h6 className="font-bold text-hospital-800 text-xs uppercase tracking-wide flex items-center gap-1.5">
-                    <CheckCircle2 className="w-3.5 h-3.5 text-hospital-600" />
-                    Aspectos clave a recordar
-                  </h6>
-                  <ul className="space-y-1.5 bg-white p-3 rounded-xl border border-hospital-100 text-xs">
-                    <li className="flex items-start gap-2">
-                      <span className="w-1.5 h-1.5 rounded-full bg-hospital-500 mt-1.5 shrink-0" />
-                      <span>Confirmar con el equipo asistencial el código informado y el motivo exacto de activación.</span>
-                    </li>
-                    <li className="flex items-start gap-2">
-                      <span className="w-1.5 h-1.5 rounded-full bg-hospital-500 mt-1.5 shrink-0" />
-                      <span>Identificar con claridad quién lidera la emergencia hospitalaria y qué acompañamiento se requiere.</span>
-                    </li>
-                    <li className="flex items-start gap-2">
-                      <span className="w-1.5 h-1.5 rounded-full bg-hospital-500 mt-1.5 shrink-0" />
-                      <span>Brindar apoyo únicamente dentro de las funciones autorizadas por el psicólogo supervisor.</span>
-                    </li>
-                  </ul>
-                </div>
-
-                <div className="p-3 rounded-xl bg-amber-50 border border-amber-200 text-amber-900 text-xs flex items-start gap-2.5">
-                  <AlertTriangle className="w-4 h-4 text-amber-600 shrink-0 mt-0.5" />
-                  <p className="leading-relaxed font-medium">
-                    <strong>Recordatorio institucional HFPS:</strong> Toda actuación durante una activación de emergencia médica debe ajustarse estrictamente al protocolo oficial del hospital y a las instrucciones del psicólogo supervisor y el equipo de urgencias tratante.
-                  </p>
-                </div>
-              </div>
-            )}
-          </div>
 
         </div>
       )}
